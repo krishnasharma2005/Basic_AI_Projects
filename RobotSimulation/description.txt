@@ -1,0 +1,20 @@
+A Pathfinding Visualizer on a Grid
+This project implements the A* Search Algorithm, a popular and efficient pathfinding and graph traversal algorithm, to compute the shortest path between a start and a goal point on a 2D grid with obstacles.
+
+Key Features:
+Accepts dynamic input for grid size, obstacles, start, and goal positions.
+Uses the Manhattan Distance heuristic to guide the search.
+Visualizes the path (*), empty cells (.), and obstacles (#) directly in the terminal.
+Implements efficient node selection using a priority queue (heap).
+Reconstructs and prints the exact shortest path taken by the agent.
+
+Technical Details:
+Nodes are defined using a custom class storing path cost g, heuristic h, and total cost f = g + h.
+Movement allowed in 4 cardinal directions (up, down, left, right).
+Obstacle cells (value 1) are treated as non-traversable.
+The program runs entirely in the terminal and is interactive.
+
+Applications:
+Demonstrates real-world use of A* in robotics, gaming (NPC movement), and AI simulations.
+Useful as an educational tool for teaching informed search algorithms.
+Can be extended to support diagonal movement, weighted cells, or GUI-based visualizations.
