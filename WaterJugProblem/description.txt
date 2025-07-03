@@ -1,0 +1,22 @@
+Water Jug Problem Solver using Breadth-First Search (BFS)
+This project solves the classic Water Jug Problem using the Breadth-First Search (BFS) algorithm. The objective is to find the shortest sequence of steps to measure an exact amount of water using two jugs of given capacities.
+
+Problem Statement:
+Given two jugs of capacities jug1 and jug2, the goal is to measure exactly target liters of water, using a minimal sequence of operations.
+
+Key Features:
+Implements BFS to explore all possible valid states (combinations of water in the two jugs).
+Tracks the shortest path from the initial state (0, 0) to a state where one of the jugs holds exactly the target amount.
+Supports the standard operations:
+  Fill either jug.
+  Empty either jug.
+  Pour water from one jug to another.
+
+Output:
+Prints a step-by-step path of jug states leading to the target volume.
+If no solution exists, returns an appropriate message.
+
+Applications:
+Demonstrates the use of state space search algorithms in AI.
+Useful in algorithmic problem-solving, puzzles, and teaching graph traversal techniques.
+Can be extended to solve other constraint-based problems or model resource transfers.
