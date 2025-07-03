@@ -1,20 +1,15 @@
 Knight’s Shortest Path on a Chessboard
+
 This project implements a Breadth-First Search (BFS) algorithm to determine the minimum number of moves required for a knight to travel from a given starting position to a target position on an N x N chessboard. The knight follows the standard L-shaped moves defined in chess.
 
 Key Features:
 Accepts custom board size and positions via user input.
-
 Computes the shortest path using BFS, ensuring optimality.
-
 Tracks and displays the exact sequence of moves taken by the knight.
-
 Ensures moves stay within board boundaries and avoids revisiting positions.
-
 Simple and interactive console-based interface.
 
 Use Cases:
 Can be used as a foundational algorithm in chess game simulations.
-
 Demonstrates practical use of BFS in grid-based pathfinding.
-
 Educational tool for learning about graph traversal and shortest path algorithms.
