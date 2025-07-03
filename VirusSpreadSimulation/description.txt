@@ -1,0 +1,25 @@
+Virus Spread Simulation in a Hospital Grid
+This project models the spread of a virus in a hospital using a Breadth-First Search (BFS) approach on a 2D grid. It calculates the minimum time required to infect all reachable healthy individuals in the hospital and reports whether a complete infection is possible.
+
+Key Features:
+-Accepts user-defined grid size and infection status.
+-Treats 1 as infected individuals and 0 as healthy individuals.
+-Simulates infection spread in four directions (up, down, left, right).
+-Calculates the total time required to infect all healthy people.
+-Handles edge cases like all already infected or unreachable individuals.
+-Displays the final state of the hospital grid after the simulation.
+
+How It Works:
+-Initializes a BFS queue with all initially infected cells and tracks the time taken to infect neighboring cells.
+-In each step, adjacent healthy cells are infected and added to the queue with an incremented time.
+-Continues the process until no further infections are possible.
+  
+Output:
+-Shows the final state of the grid using NumPy for easy visualization.
+-Prints the minimum time steps required for a full infection.
+-If not all individuals can be infected, it returns -1.
+
+Applications:
+-Demonstrates BFS in grid-based simulations.
+-Useful for studying epidemic modeling and contagion dynamics.
+-Can be extended to model quarantines, immunity, or probabilistic infections.
